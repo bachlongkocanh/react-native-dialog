@@ -55,7 +55,10 @@ const styles = StyleSheet.create({
     },
     android: {
       marginHorizontal: 10,
-      marginBottom: 20
+      marginBottom: 20,
+      borderWidth: StyleSheet.hairlineWidth,
+      borderRadius: 6,
+      paddingHorizontal: 8
     }
   }),
   label: Platform.select({
